@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# build output
+dist/
+**/dist/
+
+# environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Vercel local metadata
+.vercel/
